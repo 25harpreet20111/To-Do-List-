@@ -96,7 +96,7 @@ clear_button = tk.Button(button_frame, text="🧹 Clear All", font=("Arial", 12,
 clear_button.grid(row=1, column=0, columnspan=2, pady=10)
 
 # Footer
-footer_label = tk.Label(root, text="Made with Python 🐍 | by Varun 💡",
+footer_label = tk.Label(root, text="Made with Python 🐍 | by Harpreet 💡",
                         font=("Comic Sans MS", 10), bg="#EAF2F8", fg="#5D6D7E")
 footer_label.pack(side="bottom", pady=10)
 
@@ -104,3 +104,4 @@ footer_label.pack(side="bottom", pady=10)
 load_tasks()
 
 root.mainloop()
+
