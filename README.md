@@ -1,68 +1,98 @@
-To-Do List Game 📝🎮
+To-Do List Management System (Tkinter)
 
-A fun and interactive To-Do List Game that gamifies task management. Complete your tasks to earn points, level up, and stay motivated while managing your daily activities.
+A simple yet powerful To-Do List Application built using Python and Tkinter.
+This app helps you manage daily tasks efficiently by adding, deleting, and marking tasks as completed — all with a clean and interactive GUI.
 
-Features
+🚀 Features
 
-Task Management: Add, edit, and delete tasks easily.
+🆕 Add Tasks: Quickly add new tasks with title and description.
 
-Gamification: Earn points for completing tasks and track your progress.
+🗑️ Delete Tasks: Remove tasks and view them in the Deleted Tasks list.
 
-Prioritization: Mark tasks as high, medium, or low priority.
+✅ Mark as Completed: Update your progress and move tasks to the Completed list.
 
-Reminders: Set due dates to keep track of deadlines.
+🧹 Clear Fields: Instantly clear input fields.
 
-Progress Tracking: Visual indicators or scores to see your achievements.
+📊 Task Tables:
 
-How It Works
+Pending Tasks
 
-Add tasks with a title, description, priority, and due date.
+Completed Tasks
 
-Complete tasks to gain points or rewards.
+Deleted Tasks
 
-Track your daily, weekly, or overall progress.
+🖥️ Technologies Used
 
-Challenge yourself to maintain streaks and achieve high scores.
+Language: Python
 
-Technologies Used
+Library: Tkinter (built-in GUI library)
 
-Frontend: HTML, CSS, JavaScript
+Widget Toolkit: ttk.Treeview for tabular display
 
-Backend (optional): Node.js, Python, or any server for data persistence
+📂 Project Structure
+ToDoListApp/
+│
+├── todo_list_app.py     # Main Tkinter application file
+├── README.md            # Project documentation
+└── requirements.txt     # (Optional) Tkinter dependency (usually pre-installed)
 
-Database (optional): SQLite, MySQL, or local storage
+⚙️ Setup Instructions
 
-Installation
+Install Python (if not already installed)
+Download from python.org/downloads
 
-Clone the repository:
+Run the app:
 
-git clone https://github.com/yourusername/todo-list-game.git
+python todo_list_app.py
 
 
-Open index.html in your browser (if frontend-only).
+The GUI window will open — start adding your tasks! 🎉
 
-If using a backend, follow the setup instructions in /server folder.
+🧭 How It Works
 
-Usage
+Enter a Task Title and Description.
 
-Add a new task using the input form.
+Click Add Task to save it.
 
-Complete tasks by checking them off to earn points.
+Select a task from the Pending list to:
 
-Delete tasks that are no longer needed.
+Mark Completed ✅
 
-Monitor your score and level in real-time.
+Delete 🗑️
 
-Future Enhancements
+View all your tasks in categorized tables:
 
-Mobile-friendly responsive design
+Pending
 
-Social sharing and competition with friends
+Completed
 
-Analytics dashboard for streaks and achievements
+Deleted
 
-Customizable avatars or badges for gamification
+🖼️ Screenshot (Example)
 
-License
+(Add your own screenshot here)
 
-This project is open-source and free for personal or educational use.
+┌──────────────────────────────────────────────┐
+│        📝 To-Do List Management System        │
+├──────────────────────────────────────────────┤
+│ [ Task Title: _______ ] [ Description: ___ ] │
+│ [Add] [Delete] [Complete] [Clear]            │
+│----------------------------------------------│
+│  Pending Tasks Table                         │
+│  Completed Tasks Table                       │
+│  Deleted Tasks Table                         │
+└──────────────────────────────────────────────┘
+
+🌟 Future Enhancements
+
+Add Due Dates and Reminders
+
+Save tasks to a database or file
+
+Include Dark Mode / Themes
+
+Add search and filter options
+
+📜 License
+
+This project is open-source and free to use for personal and educational purposes.
